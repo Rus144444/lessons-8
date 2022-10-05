@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;  
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+/*--- Щріфти ----*/
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Hairline.woff2') format('woff2'),
+        url('Lato-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*----- Тіло -----*/
+body{
+    font-size: 16px;
+    font-family: "Lato";
+}
+
+    [class*="-container"]{
+        max-width: 1230px;
+        margin: 0 auto;
+}
+
+.title-h1 h1{
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.text   {
+    font-weight: 400;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 50px;
+}
+
+.title-h3 h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #1E212C;
+}
+
+.list li{
+    font-weight: 400;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    background: url('../img/check.svg') 0 6px / 20px no-repeat;
+}
+
+
+
+ul li:hover ul{
+    display: block;
+}
+
+
+.lisa2{
+    display: none;
+}
+
+.lisa{
+    display: none;
+}
+
+.lisa2{
+
+}
+/* _________________ */
+
+
+.list{
+    margin-bottom: 50px;
+}
+
+.title-h1-2 h1{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.title-h1-2 h6{
+    color:#1E212C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+title-h1-2{
+    margin-bottom: 20px;
+}
+
+.title-h1-2{
+    color: #1E2122;
+    display: none;
+}
+
+.title-h1-2:target{
+    display: block;
+}
+
+.text-2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#424551;
+    margin-bottom: 35px;
+}
+
+.stara li{
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.stara{
+    margin-bottom: 20px;
+}
+
+.stara .link1{
+    background: url('../img/Star.png') 0 / 20px no-repeat;
+    padding-left: 30px;
+}
+
+
+.stara .link2{
+    background: url('../img/Play.jpg') 0 / 20px no-repeat;
+    padding-left: 30px;
+}
+
+
+.stara .link3{
+    background: url('../img/Profile.jpg') 0 / 20px no-repeat;
+    padding-left: 30px;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    color:aqua;
+}
+
+.text-p2{
+    font-weight: 400;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 50px;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.doot:not(:last-child){
+    margin-right: 20px;
+}
+
+.text-p2:hover{
+    color: burlywood;
+}
+
+.stara:hover .diff{
+    visibility: visible;
+    opacity: 1;
+}
+
+.diff{
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* ---------------- */
+
+.homework li{
+    font-weight: 400;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 50px;
+}
+
+.homework li::before{
+    content: "";
+    background: url('../img/Star.png') center / 20px no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.homework li:hover::before{
+    transition: all 0,8 ease 0s;
+    transform: scale(1.5);
+}
